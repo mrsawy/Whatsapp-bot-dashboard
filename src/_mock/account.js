@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------
 
 export const account = {
-  displayName: 'Jaydon Frankie',
-  email: 'demo@minimals.cc',
-  photoURL: '/assets/images/avatars/avatar_25.jpg',
+  displayName: 'Dreams Boats',
+  email: 'dreamsboats@dreamsboats.ae',
+  photoURL: '/assets/images/avatars/Dream-logo-White-1.png',
 };

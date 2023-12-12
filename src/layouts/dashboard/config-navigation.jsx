@@ -1,5 +1,5 @@
 import SvgColor from 'src/components/svg-color';
-
+// import EmailIcon from '@mui/icons-material/Email';
 // ----------------------------------------------------------------------
 
 const icon = (name) => (
@@ -8,35 +8,35 @@ const icon = (name) => (
 
 const navConfig = [
   {
-    title: 'dashboard',
+    title: 'Main Massage',
     path: '/',
-    icon: icon('ic_analytics'),
+    icon: icon('main'),
   },
   {
-    title: 'user',
-    path: '/user',
-    icon: icon('ic_user'),
+    title: 'Massages List',
+    path: '/list',
+    icon: icon('list'),
   },
   {
-    title: 'product',
-    path: '/products',
+    title: 'Working Hours',
+    path: '/time',
     icon: icon('ic_cart'),
   },
   {
-    title: 'blog',
-    path: '/blog',
+    title: 'Images',
+    path: '/images',
     icon: icon('ic_blog'),
   },
-  {
-    title: 'login',
-    path: '/login',
-    icon: icon('ic_lock'),
-  },
-  {
-    title: 'Not found',
-    path: '/404',
-    icon: icon('ic_disabled'),
-  },
+  // {
+  //   title: 'login',
+  //   path: '/login',
+  //   icon: icon('ic_lock'),
+  // },
+  // {
+  //   title: 'Not found',
+  //   path: '/404',
+  //   icon: icon('ic_disabled'),
+  // },
 ];
 
 export default navConfig;
