@@ -1,0 +1,15 @@
+/* scrollbar */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '~bootstrap/dist/css/bootstrap.min.css';
+/* @import "~bootstrap/scss/bootstrap"; */
+
+@import 'simplebar-react/dist/simplebar.min.css';
+
+.m-0-span .css-1gnd1fd-MuiButton-endIcon {
+  margin: 0;
+}
+.swal2-container {
+  z-index: 1174;
+}
